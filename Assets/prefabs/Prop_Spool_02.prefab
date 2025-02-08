@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3375496525133123287}
   - component: {fileID: 7635366736729819859}
   - component: {fileID: -5839270787688452544}
+  - component: {fileID: -1109987367268012335}
   m_Layer: 0
   m_Name: Prop_Spool_02
   m_TagString: Obstacle
@@ -29,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7121546349541551799}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &4394312221053544528
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -156,3 +157,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3226004, y: 2.1209922, z: 2.3226004}
   m_Center: {x: 0, y: 1.0604961, z: 0}
+--- !u!114 &-1109987367268012335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7121546349541551799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329a2e93452ee53428b9f389cea94f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
