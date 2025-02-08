@@ -360,8 +360,11 @@
 -analyzer:"D:/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/MoveLeft.cs"
 "Assets/Scripts/ObstacleFly.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/ResetBackground.cs"
+"Assets/Scripts/SpawnManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
