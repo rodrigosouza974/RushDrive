@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class ResetBackground : MonoBehaviour
 {
-    private Vector3 startPos;
-    private float repeaWidth;
+    private float startPosZ; // Posição inicial do fundo
+    private float endPosZ;   // Posição final do fundo
+    private float backgroundSize; // Tamanho total do fundo
 
     void Start()
     {
-        startPos = transform.position;
-        repeaWidth = GetComponent<BoxCollider>().size.z;
+        startPosZ = 50f;      // Posição inicial (onde começa o movimento)
+        endPosZ = -6.17f;     // Posição final (onde termina o movimento)
+        backgroundSize = GetComponent<BoxCollider>().size.z; // Pegando o tamanho do fundo
     }
 
     void Update()
     {
-        if (transform.position.z < startPos.z - repeaWidth)
+        // Movimento contínuo do fundo de 50 até -10.6
+        transform.position += Vector3.back * Time.deltaTime * 10; // Ajuste a velocidade aqui
+
+        // Se o fundo ultrapassar a posição final (-10.6), reposiciona para 50
+        if (transform.position.z <= endPosZ)
         {
-            transform.position = startPos;
+            transform.position = new Vector3(transform.position.x, transform.position.y, startPosZ);
         }
     }
 }
+

@@ -30,18 +30,6 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResetBackground.cs",
-              "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\ResetBackground.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ResetBackground.cs",
-              "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\ResetBackground.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ResetBackground.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:09:12.403Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\SpawnManager.cs",
@@ -54,15 +42,29 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResetBackground.cs",
+              "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\ResetBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResetBackground.cs",
+              "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\ResetBackground.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResetBackground.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T01:09:12.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MoveLeft.cs",
               "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\MoveLeft.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveLeft.cs",
               "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\MoveLeft.cs",
               "RelativeToolTip": "Assets\\Scripts\\MoveLeft.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:23:46.818Z"
+              "WhenOpened": "2025-02-07T20:23:46.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T01:18:15.961Z",
               "EditorCaption": ""
