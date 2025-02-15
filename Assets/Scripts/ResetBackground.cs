@@ -17,8 +17,6 @@ public class ResetBackground : MonoBehaviour
 
     void Update()
     {
-        // Movimento contínuo do fundo de 50 até -10.6
-        transform.position += Vector3.back * Time.deltaTime * 10; // Ajuste a velocidade aqui
 
         // Se o fundo ultrapassar a posição final (-10.6), reposiciona para 50
         if (transform.position.z <= endPosZ)

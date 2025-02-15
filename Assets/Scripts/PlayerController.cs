@@ -8,8 +8,12 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     public bool gameOver = false ;
 
+    public AudioClip ObstacleCollisionSound;
+    private AudioSource playerAudio;
+
     void Start()
     {
+        playerAudio = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -19,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision){
         if(collision.gameObject.CompareTag("Obstacle")){
+            playerAudio.PlayOneShot(ObstacleCollisionSound, 1.0f);
             gameOver = true;
             Debug.Log("Game Over!");
         }
