@@ -26,20 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:29:01.655Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -50,8 +38,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ResetBackground.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T01:09:12.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T01:09:12.403Z"
             },
             {
               "$type": "Document",
@@ -63,8 +50,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveLeft.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T20:23:46.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T20:23:46.818Z"
             },
             {
               "$type": "Document",
@@ -74,10 +60,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T01:18:15.961Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\i5\\Documents\\GitHub\\RushDrive\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T20:29:01.655Z"
             }
           ]
         }

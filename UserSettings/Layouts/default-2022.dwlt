@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 987
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 123
+  controlID: 44
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
+  controlID: 45
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
+  controlID: 46
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 469
     height: 539
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -217,12 +217,12 @@ MonoBehaviour:
     height: 539
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 483
     height: 937
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -344,7 +344,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -413,8 +413,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f45a0000
-      m_LastClickedID: 23284
+      m_SelectedIDs: 885a0000
+      m_LastClickedID: 0
       m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -460,10 +460,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -75
-    y: -997
-    width: 958
-    height: 509
+    x: -80
+    y: -1005
+    width: 966
+    height: 518
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -699,7 +699,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -809,9 +809,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -19.862213, y: -8.066209, z: 103.30998}
+    m_Target: {x: 0.9639602, y: 2.1591446, z: -4.0594397}
     speed: 2
-    m_Value: {x: -19.862213, y: -8.066209, z: 103.30998}
+    m_Value: {x: 0.9639602, y: 2.1591446, z: -4.0594397}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -857,13 +857,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0853996, y: 0.08418242, z: -0.0072847605, w: -0.99282163}
+    m_Target: {x: -0.0985812, y: 0.34530747, z: -0.036502324, w: -0.9326541}
     speed: 2
-    m_Value: {x: -0.08539415, y: 0.08417705, z: -0.0072842957, w: -0.99275833}
+    m_Value: {x: -0.0985812, y: 0.34530747, z: -0.036502324, w: -0.9326541}
   m_Size:
-    m_Target: 58.261917
+    m_Target: 2.20053
     speed: 2
-    m_Value: 58.261917
+    m_Value: 2.20053
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -934,7 +934,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Course Library/Vehicles
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -942,16 +942,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Course Library/Vehicles
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\i5\Documents\GitHub\RushDrive
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 63}
-    m_SelectedIDs: c85c0000
-    m_LastClickedID: 23752
-    m_ExpandedIDs: 00000000a25c0000a45c0000a65c0000a85c0000aa5c0000c65c000000ca9a3b
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: c05c0000
+    m_LastClickedID: 23744
+    m_ExpandedIDs: 00000000b85c0000ba5c0000bc5c0000be5c0000c05c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -979,7 +979,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a25c0000a45c0000a65c0000a85c0000aa5c0000
+    m_ExpandedIDs: 00000000b85c0000ba5c0000bc5c0000be5c0000c05c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
