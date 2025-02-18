@@ -364,6 +364,7 @@
 "Assets/Scripts/ObstacleFly.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ResetBackground.cs"
+"Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
