@@ -6,7 +6,7 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public TMP_Text scoreText;  // Referência ao texto UI
-    private float score;    // Tempo de sobrevivência
+    public float score;    // Tempo de sobrevivência
     private PlayerController playControllerScript;
 
     void Start()
