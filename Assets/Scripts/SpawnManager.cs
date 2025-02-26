@@ -14,17 +14,28 @@ public class SpawnManager : MonoBehaviour
     private float spawnLimitXLeft = 10;
     private float spawnLimitXRight = 10;
     private float spawnPosY = 0;
-    private float spawnPosZ = 50;
+    private float spawnPosZ = 80;
+
+    private ScoreManager scoreControllerScript;
+    private float fastRepeatRate = 0.5f; // Velocidade maior quando score >= 15
+    private bool isFastSpawning = false; // Para evitar reiniciar o spawn repetidamente
 
     void Start()
     {
         playControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        scoreControllerScript = GameObject.Find("ScoreDisplay").GetComponent<ScoreManager>();
 
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
     }
 
     void Update()
     {
+        if (scoreControllerScript.score >= 15 && !isFastSpawning)
+        {
+            isFastSpawning = true; // Evita chamadas repetidas
+            CancelInvoke("SpawnObstacle");
+            InvokeRepeating("SpawnObstacle", 0f, fastRepeatRate);
+        }
     }
     
     void SpawnObstacle()

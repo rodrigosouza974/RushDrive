@@ -21,11 +21,11 @@ public class MoveLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playControllerScript.gameOver == false && scoreControllerScript.score < 30.0f)
+        if (playControllerScript.gameOver == false && scoreControllerScript.score < 15.0f)
         {
             transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
-        if (playControllerScript.gameOver == false && scoreControllerScript.score >= 30.0f)
+        if (playControllerScript.gameOver == false && scoreControllerScript.score >= 15.0f)
         {
             float newSpeed = (speed + 20.0f );
             transform.Translate(Vector3.right * Time.deltaTime * newSpeed);
