@@ -369,6 +369,7 @@
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MoveLeft.cs"
 "Assets/Scripts/ObstacleFly.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ResetBackground.cs"
 "Assets/Scripts/ScoreManager.cs"

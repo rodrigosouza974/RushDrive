@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 276003133}
   - component: {fileID: 276003135}
   - component: {fileID: 276003134}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 501568696}
   - component: {fileID: 501568695}
   - component: {fileID: 501568694}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Resume Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +767,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 501568695}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1383287105}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 534669907}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1383287101}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &501568695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1410,7 +1446,7 @@ GameObject:
   - component: {fileID: 929636982}
   - component: {fileID: 929636984}
   - component: {fileID: 929636983}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1846,6 +1882,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Control, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1056438764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2181,7 +2229,7 @@ GameObject:
   - component: {fileID: 1200531090}
   - component: {fileID: 1200531092}
   - component: {fileID: 1200531091}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2322,7 +2370,7 @@ GameObject:
   - component: {fileID: 1364462475}
   - component: {fileID: 1364462474}
   - component: {fileID: 1364462473}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Main Menu Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2392,7 +2440,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1364462474}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1383287105}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: ReturnMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1364462474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2442,7 +2502,8 @@ GameObject:
   - component: {fileID: 1383287102}
   - component: {fileID: 1383287104}
   - component: {fileID: 1383287103}
-  m_Layer: 5
+  - component: {fileID: 1383287105}
+  m_Layer: 0
   m_Name: Pause Display
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,6 +2572,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383287101}
   m_CullTransparentMesh: 1
+--- !u!114 &1383287105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383287101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190c20d1b9b98904a94c7c374c204df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseDisplay: {fileID: 1383287101}
 --- !u!1 &1385500137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,7 +2877,7 @@ GameObject:
   - component: {fileID: 1535315430}
   - component: {fileID: 1535315432}
   - component: {fileID: 1535315431}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2938,7 +3012,7 @@ GameObject:
   - component: {fileID: 1578434034}
   - component: {fileID: 1578434033}
   - component: {fileID: 1578434032}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: New Game Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3008,7 +3082,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1578434033}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 534669908}
+        m_TargetAssemblyTypeName: Control, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 752751299}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1578434033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3321,7 +3419,7 @@ GameObject:
   - component: {fileID: 1770833849}
   - component: {fileID: 1770833848}
   - component: {fileID: 1770833847}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Button Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3392,17 +3490,41 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1383287101}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 534669907}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1383287105}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1770833848
 MonoBehaviour:
@@ -3453,7 +3575,7 @@ GameObject:
   - component: {fileID: 1822188180}
   - component: {fileID: 1822188182}
   - component: {fileID: 1822188181}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4285,7 +4407,7 @@ GameObject:
   - component: {fileID: 2103859187}
   - component: {fileID: 2103859189}
   - component: {fileID: 2103859188}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
