@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class SpawnManager : MonoBehaviour
     private ScoreManager scoreControllerScript;
     private float fastRepeatRate = 0.5f; // Velocidade maior quando score >= 15
     private bool isFastSpawning = false; // Para evitar reiniciar o spawn repetidamente
+
 
     void Start()
     {

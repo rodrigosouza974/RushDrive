@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638762958529498877
-    m_Hash: 1550156762
+      ticks: 638771545646842047
+    m_Hash: 2538278490
   m_LockFileStatus:
     m_FilePath: C:/Users/i5/Documents/GitHub/RushDrive/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638762958529533967
-    m_Hash: 1821702534
+      ticks: 638771545646943736
+    m_Hash: 4263039924
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -297,6 +297,66 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.2.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.device-simulator.devices@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\i5\Documents\GitHub\RushDrive\Library\PackageCache\com.unity.device-simulator.devices@1.0.0
+  assetPath: Packages/com.unity.device-simulator.devices
+  name: com.unity.device-simulator.devices
+  displayName: Device Simulator Devices
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: This package contains additional devices for the Device Simulator.
+    Each device has a complete device definition and includes a device overlay. After
+    you install this package, the additional devices are immediately available in
+    the Device Simulator.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.4
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637810555200000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.device-simulator.devices.git
+    revision: 2e1ffaaea0624daf91ee6c76906fd119dbd584c6
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -911,6 +971,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.9
     - 3.2.0-pre.10
     - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -929,6 +990,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.9
     - 3.2.0-pre.10
     - 3.2.0-pre.11
+    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -1074,6 +1136,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1085,6 +1148,7 @@ m_ResolvedPackages:
     - 1.8.8
     compatible:
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1094,7 +1158,7 @@ m_ResolvedPackages:
     - 1.8.6
     - 1.8.7
     - 1.8.8
-    recommended: 1.7.6
+    recommended: 1.7.7
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1264,19 +1328,23 @@ m_ResolvedPackages:
     - 1.7.6
     - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
     - 1.9.4
     - 1.9.5
+    - 1.9.6
     compatible:
     - 1.9.1
     - 1.9.2
     - 1.9.4
     - 1.9.5
-    recommended: 1.9.5
-    deprecated: []
+    - 1.9.6
+    recommended: 1.9.6
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0

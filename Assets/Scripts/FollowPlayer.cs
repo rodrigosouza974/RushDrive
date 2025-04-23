@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     public GameObject player;
-    public Vector3 offset = new Vector3(0, 7, -8);
+    public Vector3 offset = new Vector3(0, 13, -10);
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +15,7 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        // posição em que a camera ira ficar atrás do carro
+        // posiï¿½ï¿½o em que a camera ira ficar atrï¿½s do carro
         transform.position = player.transform.position + offset;
     }
 }

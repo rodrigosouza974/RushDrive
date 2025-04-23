@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem dirtParticle;
     public ParticleSystem explosionParticle;
+    public Button restartButton;
 
     void Start()
     {
@@ -50,6 +53,8 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
             explosionParticle.Play();
             dirtParticle.Stop();
+            restartButton.gameObject.SetActive(true);
+
          }
     }
 }
