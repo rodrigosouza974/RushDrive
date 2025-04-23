@@ -34,6 +34,13 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f; // Pausa o tempo do jogo
         GameIsPaused = true;
     }
+    public void RestartLevel()
+    {
+        // Garante que o tempo volte ao normal antes de reiniciar
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
     public void ReturnMainMenu()
     {
         SceneManager.LoadSceneAsync("MainMenu");
