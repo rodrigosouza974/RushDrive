@@ -1,23 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69315768b2baa4a3b8409745cca9bd7f, type: 3}
-  m_Name: CupcakeData
-  m_EditorClassIdentifier: 
-  Title: Cupcake
-  Description: A nice cupcake.
-  Icon: {fileID: 21300000, guid: 77e9fb8ea74be4f1a94808ee169f2209, type: 3}
-  InitialCost: 15
-  CostIncrease: 8
-  InitialCreationTime: 0.1
-  CreationTimeIncrease: 0.3
-  CurrencyBonus: 2
-  IconId: icon_cupcake
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bce1af06858c28c4065d7408ee70dd14978435c34e622a8715a8d13a0c47417
+size 657
