@@ -30,6 +30,11 @@ public class MoveLeft : MonoBehaviour
             float newSpeed = (speed + 20.0f );
             transform.Translate(Vector3.right * Time.deltaTime * newSpeed);
         }
+        if (playControllerScript.gameOver == false && scoreControllerScript.score >= 50.0f)
+        {
+            float newSpeed = (speed + 30.0f );
+            transform.Translate(Vector3.right * Time.deltaTime * newSpeed);
+        }
         if (transform.position.z < leftBound && gameObject.CompareTag("Obstacle"))
         {
             Destroy(gameObject);

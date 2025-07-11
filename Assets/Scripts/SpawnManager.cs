@@ -15,7 +15,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnLimitXLeft = 10;
     private float spawnLimitXRight = 10;
     private float spawnPosY = 0;
-    private float spawnPosZ = 80;
+    private float spawnPosZ = 150;
 
     private ScoreManager scoreControllerScript;
     private float fastRepeatRate = 0.5f; // Velocidade maior quando score >= 15
